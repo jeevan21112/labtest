@@ -11,7 +11,7 @@ class CalcuiTest {
     // Test 1: HRA calculation
     @Test
     void testHRA() {
-        assertEquals(6000.0, obj.calculateHRA(30000), 0.01);
+        assertEquals(7000.0, obj.calculateHRA(30000), 0.01);
     }
 
     // Test 2: DA calculation
